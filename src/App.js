@@ -1,5 +1,6 @@
 import "./styles.css";
 import AsyncComponent from "./useAsync/asynComponents";
+import TimeoutComponent from "./useTimeout/timoutComponent";
 import ToggleComponent from "./useToggle/toggleComponent";
 
 export default function App() {
@@ -10,6 +11,8 @@ export default function App() {
       <ToggleComponent />
       <h2>UseAsync</h2>
       <AsyncComponent />
+      <h2>UseTimeout</h2>
+      <TimeoutComponent />
     </div>
   );
 }
